@@ -8,7 +8,7 @@
 }
 /* IN Fundo principal*/
 #td{
-    background-color: #fff;
+    background-color: #5800FF;
 }
 /* FM Fundo principal*/
 
@@ -19,7 +19,7 @@
 #menu-h ul{
     list-style: none;
     padding: 0;
-    background-color:#1E5128;
+    background-color:#0096FF;
 }
  
 #menu-h ul li{
@@ -28,7 +28,7 @@
 }
  
 #menu-h ul li a{
-    color:#D8E9A8;
+    color:#fff;
     display: inline-block;
     padding:20px;
     text-decoration: none;
@@ -36,11 +36,38 @@
 }
  
 #menu-h ul li a:hover {
-  background-color: #4E9F3D;
+  background-color: #00D7FF;
 }
  
 #menu-h ul li:last-child a {
     float: right;
-    background-color: rgb(38, 145, 65);
+    background-color: #00D7FF;
   }
 /*FM Barra de Navegação*/
+
+/*IN Carrossel*/
+/*FM Carrossel*/
+
+/*IN Alter*/
+.Alter{
+  margin-top: 10%;
+  margin-right: 92%;
+  
+}
+.cine ,.stream{
+    margin: 20px 20px;
+    padding: 10px;
+    color:white;
+}
+
+.cine{
+    background-image: url(/imgs/cinema.png);
+
+}
+
+.stream{
+    background-color: orangered;
+
+}
+/*FM Alter*/
+
