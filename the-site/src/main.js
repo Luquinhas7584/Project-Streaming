@@ -1,25 +1,25 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+//
+// const routes = [
+//     {
+//       path: '/',
+//       component: ()=>import('./components/Home')
+//     },
+//     {
+//       path: '/login',
+//       component: ()=>import('./components/Login')
+//     }
+//   ];
 
-const routes = [
-    {
-      path: '/Home',
-      component: home,
-      children: [
-        {
-          path: 'new',
-          component: PostsNew,
-          // only authenticated users can create posts
-          meta: { requiresAuth: true }
-        },
-        {
-          path: ':id',
-          component: PostsDetail,
-          // anybody can read a post
-          meta: { requiresAuth: false }
-        }
-      ]
-    }
-  ]
+// const router = new VueRouter({
+//   mode: 'history',
+//   base: process.env.BASE_URL,
+//   routes
+// })
+
+new Vue({
+  //router,
+  render: h => h(App)
+}).$mount('#app')
